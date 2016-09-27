@@ -1,0 +1,28 @@
+{
+  "name": "optional-callback",
+  "version": "1.0.0",
+  "description": "Transform promise-returning functions into functions that may optionally use the callback style as well",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DimensionSoftware/optional-callback"
+  },
+  "keywords": [
+    "promise",
+    "callback"
+  ],
+  "author": "John Beppu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DimensionSoftware/optional-callback/issues"
+  },
+  "homepage": "https://github.com/DimensionSoftware/optional-callback",
+  "devDependencies": {
+    "babel-plugin-transform-flow-strip-types": "^6.14.0",
+    "flow-bin": "^0.32.0"
+  }
+}
