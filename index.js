@@ -1,3 +1,5 @@
+// @flow
+
 /* Transform a Promise-returning function into a function that can optionally
  * take a callback as the last parameter instead.
  *
