@@ -4,6 +4,12 @@
 
 A function that turns a Promise-returning function into a function that may also take an optional callback as the last parameter instead
 
+## Install
+
+```sh
+npm install --save optional-callback
+```
+
 ## Example
 
 ```javascript
