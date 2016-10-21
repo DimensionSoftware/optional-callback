@@ -1,5 +1,7 @@
 # optional-callback(fn) : Function
 
+[![npm version](https://badge.fury.io/js/optional-callback.svg)](https://badge.fury.io/js/optional-callback)
+
 A function that turns a Promise-returning function into a function that may also take an optional callback as the last parameter instead
 
 ## Example
