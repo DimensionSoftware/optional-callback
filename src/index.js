@@ -1,6 +1,7 @@
 // @flow
 
-/* Transform a Promise-returning function into a function that can optionally
+/**
+ * Transform a Promise-returning function into a function that can optionally
  * take a callback as the last parameter instead.
  *
  * @param   {Function}    fn          a function that returns a Promise
