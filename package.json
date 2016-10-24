@@ -1,6 +1,6 @@
 {
   "name": "optional-callback",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transform promise-returning functions into functions that may optionally use the callback style as well",
   "main": "dist/index.js",
   "scripts": {
