@@ -6,7 +6,7 @@
   "scripts": {
     "build": "babel src --no-comments --out-dir dist",
     "watch": "babel src --watch --out-dir dist",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "ava",
     "flow": "flow; test $? -eq 0 -o $? -eq 2"
   },
   "repository": {
