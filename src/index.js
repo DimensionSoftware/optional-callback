@@ -15,8 +15,8 @@ function optionalCallback(fn, self) {
     }
     var last = arguments[arguments.length - 1];
     if (typeof last === 'function') {
-      return fn.apply(self, arguments).then(function(){
-        last.apply(self, arguments);
+      return fn.apply(self, arguments).then(function(res){
+        last.apply(self, [null, res]);
       }).catch(function(err){
         last(err);
       });
