@@ -8,10 +8,10 @@
  * @return  {Function}                a function that can take callbacks as well.
  */
 function optionalCallback(fn, self) {
-  if (!self) {
-    self = this;
-  }
   return function() {
+    if (!self) {
+      self = this;
+    }
     var last = arguments[arguments.length - 1];
     if (typeof last === 'function') {
       return fn.apply(self, arguments).then(function(){
