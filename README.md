@@ -2,6 +2,8 @@
 
 [![npm version](https://badge.fury.io/js/optional-callback.svg)](https://badge.fury.io/js/optional-callback)
 [![Build Status](https://travis-ci.org/DimensionSoftware/optional-callback.svg?branch=master)](https://travis-ci.org/DimensionSoftware/optional-callback)
+[![Documentation Status](https://readthedocs.org/projects/optional-callback/badge/?version=latest)](http://optional-callback.readthedocs.io/en/latest/?badge=latest)
+
 
 A function that turns a Promise-returning function into a function that may also take an optional callback as the last parameter instead
 
