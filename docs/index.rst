@@ -3,20 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to optional-callback's documentation!
+optional-callback
 =============================================
 
-Contents:
+optionalCallback(fn, self) ⇒ function
+-------------------------------------
 
-.. toctree::
-   :maxdepth: 2
+Transform a Promise-returning function into a function that can
+optionally take a callback as the last parameter instead.
 
+| **Kind**: global function
+| **Returns**: function - a function that can take callbacks as well.
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
++---------+------------+---------------------------------------------------+
+| Param   | Type       | Description                                       |
++=========+============+===================================================+
+| fn      | function   | a function that returns a Promise                 |
++---------+------------+---------------------------------------------------+
+| self    | Object     | (optional) ``this`` to be used when applying fn   |
++---------+------------+---------------------------------------------------+
